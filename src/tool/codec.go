@@ -1,9 +1,5 @@
 package tool
 
-const (
-	PREFIX_BYTE = 4
-)
-
 type Codec interface{
 	encode(data interface{}) ([]byte)
 	decode() (interface{})
